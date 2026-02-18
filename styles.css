@@ -86,3 +86,13 @@ button {
 .hidden {
   display: none;
 }
+
+.logo {
+  font-size: 2.5rem; /* Adjust this number to change the size */
+  font-weight: 800; /* This makes it thicker/bolder */
+  letter-spacing: -1px; /* Optional: gives it a modern, tight look */
+  color: white;
+  background: linear-gradient(to right, #ffffff, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
